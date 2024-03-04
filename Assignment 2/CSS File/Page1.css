@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("Screenshot 2024-02-26 194446.png");
+  
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #010051;
+  box-shadow: 0 0 5px rgba(244, 4, 4, 0.1);
+}
+
+header a {
+  color: #f9fd0c;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  color: #f9fd0c /* Assuming white text for better contrast over background image */
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #b01717; /* Assuming white text for better contrast over background image */
+}
+
+button {
+  background-color: #010051;
+  color:#f9fd0c;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
